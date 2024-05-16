@@ -1,0 +1,70 @@
+body tipo{
+    border-bottom-left-radius: 5%;
+}
+
+header{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    background-color: darkgoldenrod;
+}
+h1 img{
+    height:50px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.F{
+    background-color:orangered ;
+}
+.A{
+    background-color: dodgerblue
+}
+.PL{
+    background-color: forestgreen;
+}
+.N{
+    background-color: whitesmoke;
+}
+.E{
+    background-color: yellow;
+}
+.T{
+    background-color: chocolate;
+}
+.R{
+    background-color: peru;
+}
+.A{
+    background-color: dimgrey;
+}
+.Vol{
+    background-color: cornflowerblue;
+}
+.V{
+    background-color: blueviolet;
+}
+.B{
+    background-color: olive;
+}
+.L{
+    background-color: crimson;
+}
+.PSQ{
+    background-color: deeppink;
+}
+.G{
+    background-color: indigo;
+}
+.S{
+    background-color: black;
+}
+.H{
+    background-color: palevioletred;
+}
