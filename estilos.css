@@ -2,7 +2,20 @@ body tipo{
     background-color: brown;
     border-bottom-left-radius: 5%;
     background-image: url(teraorb.jpg);
+    color: aliceblue;
+
 }
+
+
+div.contenedor{
+	max-width: 1000px;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px auto;
+}
+
+
 
 header{
     background-color: darkgoldenrod;
@@ -16,6 +29,24 @@ h1 img{
     height:50px;
 
 }
+
+main {
+    
+	padding: 20px;
+	width: 70%;
+}
+
+aside {
+    background: #004254;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
 
 footer{
     background-color: black;
