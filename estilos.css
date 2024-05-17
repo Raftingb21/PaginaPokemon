@@ -1,5 +1,7 @@
 body tipo{
+    background-color: brown;
     border-bottom-left-radius: 5%;
+    background-image: url(teraorb.jpg);
 }
 
 header{
