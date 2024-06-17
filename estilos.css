@@ -8,8 +8,7 @@ body tipo{
 
 
 div.contenedor{
-	max-width: 1000px;
-	width: 90%;
+	
 	display: flex;
 	flex-wrap: wrap;
 	margin: 20px auto;
@@ -30,16 +29,11 @@ h1 img{
 
 }
 
-main {
-    
-	padding: 20px;
-	width: 70%;
-}
+
 
 aside {
     background: #004254;
-    padding: 20px;
-    width: 20%;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
