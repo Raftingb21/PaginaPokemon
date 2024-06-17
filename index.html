@@ -23,31 +23,41 @@
             color: black;
         }
 
+        
+        div.container nav{
+            display: flex;
+            justify-content: space-between;
+        }
+
         nav {
             color: white;
+            align-items: self;
         }
 
         nav img {
             width: 50px;
         }
 
-        ul{
+        ul {
             list-style: none;
         }
 
-        dl p img{
+        dl p img {
             width: 50px;
         }
 
-        wartortle{
+        div p img {
+            width: 50px;
+        }
+
+        wartortle {
             width: 100px;
         }
 
-        footer{
+        footer {
             background-color: black;
             color: white;
         }
-
     </style>
     <title>Scarlet</title>
 </head>
@@ -61,34 +71,57 @@
                         src="Pokeball.png"><img src="koraidon izquierda.png"></h1>
             </header>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+        <nav class="d-flex align-items-center navbar-expand-lg navbar-dark bg-dark py-4">
             <div class="container d-flex justify-content-center">
                 <!-- <ul class="align-items-center me-auto"> -->
-                <ul class="d-flex align-items-center justify-content-center me-auto mb-2 mb-sm-0">
+                
+                    <p class="button" id="#vuelta">Inicio</p>
+                <ul class="d-flex align-items-center me-auto mb-2 mb-sm-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="pokemonDropdown1" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Categorías
+                            Lista Completa de Pokémon existentes
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#common">Pokémon Comunes</a></li>
-                            <li><a class="dropdown-item" href="#semilegendary">Pokémon Semi-legendarios</a></li>
-                            <li><a class="dropdown-item" href="#pseudolegendary">Pokémon Pseudo-legendarios</a></li>
-                            <li><a class="dropdown-item" href="#legendary">Pokémon Legendarios</a></li>
+                            <p> <img src="EnlacesPokedex/Bulbasaur.png"> <a
+                                    href="https://www.wikidex.net/wiki/Bulbasaur">Bulbasaur</a></p>
+                            <p> <img src="EnlacesPokedex/Ivysaur.png"> <a
+                                    href="https://www.wikidex.net/wiki/Ivysaur">Ivysaur</a></p>
+                            <p> <img src="EnlacesPokedex/Venusaur.png"> <a
+                                    href="https://www.wikidex.net/wiki/Venusaur">Venusaur</a></p>
+                            <p> <img src="EnlacesPokedex/Charmander.png"> <a
+                                    href="https://www.wikidex.net/wiki/Charmander">Charmander</a></p>
+                            <p> <img src="EnlacesPokedex/Lets-Go-Charmeleon.png"> <a
+                                    href="https://www.wikidex.net/wiki/Charmeleon">Charmeleon</a></p>
+                            <p> <img src="EnlacesPokedex/Charizard_icono_G6.png"> <a
+                                    href="https://www.wikidex.net/wiki/Charizard">Charizard</a></p>
+                            <p> <img src="EnlacesPokedex/Squirtle.png"> <a
+                                    href="https://www.wikidex.net/wiki/Squirtle">Squirtle</a></p>
+                            <p> <img src="EnlacesPokedex/Wartortle.png"> <a
+                                    href="https://www.wikidex.net/wiki/Wartortle">Wartortle</a></p>
+                            <p> <img src="EnlacesPokedex/Blastoise.png"> <a
+                                    href="https://www.wikidex.net/wiki/Blastoise">Blastoise</a></p>
+
+                            <p> <img src="EnlacesPokedex/Dragonite.png"> <a
+                                    href="https://www.wikidex.net/wiki/Dragonite">Dragonite</a></p>
+
+                            <p> <img src="EnlacesPokedex/Articuno.png"> <a
+                                    href="https://www.wikidex.net/wiki/Articuno">Articuno</a></p>
+                            <p> <img src="EnlacesPokedex/Zapdosl.png"> <a
+                                    href="https://www.wikidex.net/wiki/Zapdos">Zapdos</a></p>
+                            <p> <img src="EnlacesPokedex/Moltres.png"> <a
+                                    href="https://www.wikidex.net/wiki/Moltres">Moltres</a></p>
+                            <p> <img src="EnlacesPokedex/Mewtwo.png"> <a
+                                    href="https://www.wikidex.net/wiki/Mewtwo">Mewtwo</a></p>
+                            <p> <img src="EnlacesPokedex/Mew.png"> <a href="https://www.wikidex.net/wiki/Mew">Mew</a>
+                            </p>
+
+
+
+
                         </ul>
                     </li>
-                    <!-- li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li -->
-                    <!---------------------------------------------------------------------------------------------------------->
+                    
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="pokemonDropdown2" role="button"
@@ -193,16 +226,29 @@
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
+                                    <p><b>Definición:</b> Los pokémon comunes son aquellos que no son o no están
+                                        clasificados como alguno de los grupos mencionados más abajo. Constituyen la
+                                        mayoría de los pokémon del mundo y la mayor parte de estos pueden criar es
+                                        decir, tener huevos/descendencia (a excepción de los pokémon Baby)</p>
                                     <dl>
-                                        <p> <img src="EnlacesPokedex/Bulbasaur.png"> <a href="index01.html">Bulbasaur</a></p>
-                                        <p> <img src="EnlacesPokedex/Ivysaur.png"> <a href="https://www.wikidex.net/wiki/Ivysaur">Ivysaur</a></p>
-                                        <p> <img src="EnlacesPokedex/Venusaur.png"> <a href="https://www.wikidex.net/wiki/Venusaur">Venusaur</a></p>
-                                        <p> <img src="EnlacesPokedex/Charmander.png"> <a href="https://www.wikidex.net/wiki/Charmander">Charmander</a></p>
-                                        <p> <img src="EnlacesPokedex/Lets-Go-Charmeleon.png"> <a href="https://www.wikidex.net/wiki/Charmeleon">Charmeleon</a></p>
-                                        <p> <img src="EnlacesPokedex/Charizard_icono_G6.png"> <a href="https://www.wikidex.net/wiki/Charizard">Charizard</a></p>
-                                        <p> <img src="EnlacesPokedex/Squirtle.png"> <a href="https://www.wikidex.net/wiki/Squirtle">Squirtle</a></p>
-                                        <p> <img src="EnlacesPokedex/Wartortle.png"> <a href="https://www.wikidex.net/wiki/Wartortle">Wartortle</a></p>
-                                        <p> <img src="EnlacesPokedex/Blastoise.png"> <a href="https://www.wikidex.net/wiki/Blastoise">Blastoise</a></p>
+                                        <p> <img src="EnlacesPokedex/Bulbasaur.png"> <a
+                                                href="https://www.wikidex.net/wiki/Bulbasaur">Bulbasaur</a></p>
+                                        <p> <img src="EnlacesPokedex/Ivysaur.png"> <a
+                                                href="https://www.wikidex.net/wiki/Ivysaur">Ivysaur</a></p>
+                                        <p> <img src="EnlacesPokedex/Venusaur.png"> <a
+                                                href="https://www.wikidex.net/wiki/Venusaur">Venusaur</a></p>
+                                        <p> <img src="EnlacesPokedex/Charmander.png"> <a
+                                                href="https://www.wikidex.net/wiki/Charmander">Charmander</a></p>
+                                        <p> <img src="EnlacesPokedex/Lets-Go-Charmeleon.png"> <a
+                                                href="https://www.wikidex.net/wiki/Charmeleon">Charmeleon</a></p>
+                                        <p> <img src="EnlacesPokedex/Charizard_icono_G6.png"> <a
+                                                href="https://www.wikidex.net/wiki/Charizard">Charizard</a></p>
+                                        <p> <img src="EnlacesPokedex/Squirtle.png"> <a
+                                                href="https://www.wikidex.net/wiki/Squirtle">Squirtle</a></p>
+                                        <p> <img src="EnlacesPokedex/Wartortle.png"> <a
+                                                href="https://www.wikidex.net/wiki/Wartortle">Wartortle</a></p>
+                                        <p> <img src="EnlacesPokedex/Blastoise.png"> <a
+                                                href="https://www.wikidex.net/wiki/Blastoise">Blastoise</a></p>
                                     </dl>
 
                                 </div>
@@ -218,9 +264,16 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">
+                                    <p><b>Definición:</b> Los Pokémon semilegendarios, también conocidos como pokémon
+                                        titánicos, son criaturas poderosas que, aunque no alcanzan el estatus de los
+                                        legendarios, poseen estadísticas base muy altas (600) y pueden enfrentarse a
+                                        cualquier oponente sin problemas</p>
+
+                                    <p> <img src="EnlacesPokedex/Dragonite.png"> <a
+                                            href="https://www.wikidex.net/wiki/Dragonite">Dragonite</a></p>
+
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -233,11 +286,24 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">
+                                    <p><b>Definición:</b> Los Pokémon pseudo-legendarios son una categoría especial de
+                                        criaturas que comparten características similares a los Pokémon legendarios,
+                                        aunque no se consideran como tales. Estos Pokémon cumplen con los siguientes
+                                        criterios:
+
+                                        Son la etapa final de una línea evolutiva de tres fases.
+                                        Tienen un total de estadísticas base exactamente de 600 puntos (antes de
+                                        Megaevolucionar).
+                                        Suben de nivel lentamente, requiriendo 1,250,000 puntos de experiencia para
+                                        alcanzar el nivel 100</p>
+
+                                    <p> <img src="EnlacesPokedex/Dragonite.png"> <a
+                                            href="https://www.wikidex.net/wiki/Dragonite">Dragonite</a></p>
+                                    <p>(Dragonite es el único pokémon de la 1º Gen en tener el status de
+                                        Pseudo-legendario)</p>
+
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -250,11 +316,40 @@
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">
+                                    <p><b>Definición:</b> Un Pokémon legendario es una criatura especial, rara y
+                                        destacable por su poder único y excepcional, en comparación con el resto de los
+                                        Pokémon1. Generalmente, los Pokémon legendarios forman parte de leyendas o mitos
+                                        Pokémon y suelen ser difíciles de encontrar debido a su rareza. Hay tres
+                                        categorías principales de Pokémon legendarios:
+
+                                        Pokémon sublegendarios: Estos no tienen restricciones para su uso en combate y
+                                        se permiten en recintos como el Árbol de Combate o el Frente Batalla. En la
+                                        Pokédex de Alola, se marcan con un fondo verde1.
+                                        Pokémon legendarios: Son las mascotas de las versiones de distintos videojuegos.
+                                        Su uso no está permitido en recintos de combate, aunque en ciertos formatos de
+                                        competiciones online y campeonatos se permite, limitando su número a uno o dos
+                                        por equipo1.
+                                        Pokémon singulares: Son extremadamente raros y a menudo solo se obtienen
+                                        mediante eventos especiales. Antes de la quinta generación, todos los Pokémon
+                                        singulares se consideraban simplemente legendarios, pero desde la novena
+                                        generación, se programan como un grupo aparte</p>
+
+                                    <dl>
+
+                                        <p> <img src="EnlacesPokedex/Articuno.png"> <a
+                                                href="https://www.wikidex.net/wiki/Articuno">Articuno</a></p>
+                                        <p> <img src="EnlacesPokedex/Zapdosl.png"> <a
+                                                href="https://www.wikidex.net/wiki/Zapdos">Zapdos</a></p>
+                                        <p> <img src="EnlacesPokedex/Moltres.png"> <a
+                                                href="https://www.wikidex.net/wiki/Moltres">Moltres</a></p>
+                                        <p> <img src="EnlacesPokedex/Mewtwo.png"> <a
+                                                href="https://www.wikidex.net/wiki/Mewtwo">Mewtwo</a></p>
+                                        <p> <img src="EnlacesPokedex/Mew.png"> <a
+                                                href="https://www.wikidex.net/wiki/Mew">Mew</a></p>
+                                    </dl>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -263,7 +358,8 @@
             </main>
 
             <footer class="justify-content space-between navbar-expand-lg navbar-dark bg-dark py-4">
-                <p>Editado por: Raftingb-21</p> <p>© 2024 The Pokémon Company. Todos los derechos reservados.</p>
+                <p>Editado por: Raftingb-21</p>
+                <p>© 2024 The Pokémon Company. Todos los derechos reservados.</p>
             </footer>
 
 
